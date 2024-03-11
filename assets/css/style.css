@@ -694,6 +694,26 @@ color: #fff;
   color: #fff;
 }
 
+.icon-box {
+  position: relative;
+}
+
+.tech-stack-container {
+  position: relative;
+}
+
+.tech-stack {
+  background-color: red;
+  color: white;
+  font-size: 11px;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 0 0 5px 5px; /* Dodatkowy margines na dole i z lewej strony */
+  float: right; /* Umieszczenie etykiety w prawym górnym rogu */
+  position: relative; /* Dodajemy pozycjonowanie względem etykiety */
+  top: -40px;
+}
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
