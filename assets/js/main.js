@@ -13,23 +13,6 @@
     }
   }
 
-  const filterButtons = document.querySelectorAll('.filter-btn');
-  const portfolioItems = document.querySelectorAll('.portfolio-item');
-
-  filterButtons.forEach(button => {
-    button.addEventListener('click', () => {
-      const filter = button.getAttribute('data-filter');
-
-      portfolioItems.forEach(item => {
-        if (filter === 'all' || item.classList.contains(filter)) {
-          item.classList.remove('hidden');
-        } else {
-          item.classList.add('hidden');
-        }
-      });
-    });
-  });
-
   /**
    * Easy event listener function
    */
